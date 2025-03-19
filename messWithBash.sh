@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define probability percentage (replace XX with a number between 0-100)
-PROBABILITY=50  
+PROBABILITY=25  
 
 # Backup the original bashrc file
 cp /etc/bash.bashrc /etc/bash.bashrc.bak
