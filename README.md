@@ -1,6 +1,8 @@
 messWithBash.sh:
 
 rolls probability check before running bash commands.
+
+
 Steps:
 1. pull script to device
 2. "sudo bash messWithBash.sh"
