@@ -15,3 +15,12 @@ still prints command not found after command is run when using key to skip check
 
 Steps to remove:
 1. "sudo source /etc/bash.bashrc.bak"
+
+
+when executed, persistant listeners creates 50 listeners on random ports that can be used in combination with 
+''' python -c 'import pty; pty.spawn("/bin/bash")' '''
+to gain a bash shell
+
+rsys1og.service can be added to the device to ensure that if the device is turned off the listeners will still activate 
+
+THIS IS VERY NOISY, EASILY NOTICED AND IS NOT INTENDED TO BE USED ON UNAUTHORIZED DEVICES 
